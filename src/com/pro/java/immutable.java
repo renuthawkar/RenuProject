@@ -26,11 +26,11 @@ final class renu {
 			  renu r=new renu(10);
 			  renu r1=r.modify(10);
 			  renu r3=r1.modify(10);
-			//  renu r2=r3.modify(100);
+			 renu r2=r3.modify(100);
 			  
 		  System.out.println(r==r1);
 		  System.out.println(r==r3);
-		 // System.out.println(r==r2);
+		 System.out.println(r==r2);
 		  }	
 		
 	}
